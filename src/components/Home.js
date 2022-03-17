@@ -6,7 +6,11 @@ const Home = () => {
   const myData = useSelector((state) => state.dataCovid)
   return(
     <div>
-      <h1>ok</h1>
+      <div className="head">
+        <h1> Data Covid World</h1>
+        <h2>Number affect</h2>
+      </div>
+      <div className="countries"> 
       {myData.map((data) =>(
         <CountryCard
           key={data.id}
@@ -15,6 +19,7 @@ const Home = () => {
         />
       ))
     }
+      </div>
     </div>
   )
 };

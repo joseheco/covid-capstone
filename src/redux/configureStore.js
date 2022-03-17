@@ -1,7 +1,7 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
-import dataCovid, { loadData } from './covid/dataCovid';
+import dataCovid, { loadDataCountries } from './covid/dataCovid';
 
 const rootReducer = combineReducers({
   dataCovid,
@@ -9,6 +9,6 @@ const rootReducer = combineReducers({
 
 const store = createStore(rootReducer, applyMiddleware(thunk, logger));
 
-store.dispatch(loadData());
+store.dispatch(loadDataCountries());
 
 export default store;

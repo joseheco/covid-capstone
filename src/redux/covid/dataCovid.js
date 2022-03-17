@@ -12,21 +12,28 @@ export const getData = (payload) => ({
 const dataCovid = (state = initialState, action) => {
   switch (action.type) {
     case LOAD_DATA:
-      return action.payload;
+      return [...action.payload];
     default:
       return state;
   }
 };
 
-export const loadData = () => async (dispatch) => {
+export const loadDataCountries = () => async (dispatch) => {
   const response = await fetch(dataURL);
   const data = await response.json();
   const allData = data.Countries.map((e) => {
-    const currentSong = {
+    const currentData = {
       id: e.ID,
       country: e.Country,
+      NewConfirmed: e.NewConfirmed,
+      TotalConfirmed: e.TotalConfirmed,
+      NewDeaths: e.NewDeaths,
+      TotalDeaths: e.TotalDeaths,
+      NewRecovered: e.NewRecovered,
+      TotalRecovered: e.TotalRecovered,
+      Date: e.Date,
     };
-    return currentSong;
+    return currentData;
   });
   dispatch(getData(allData));
 }

@@ -4,17 +4,17 @@ import { Provider } from 'react-redux';
 import store from './redux/configureStore'
 import './App.css';
 import Home from './components/Home'
-// import CountryDetails from './components/CountryDetails'
+import CountryDetails from './components/CountryDetails'
 
 const App = () => (
-  <Provider store={store}>
-    <BrowserRouter>
+  <BrowserRouter>
+    <Provider store={store}>
       <Routes>
         <Route path="/" element={<Home />}/>
-        {/* <Route path="/:country" element={<CountryDetails />}/> */}
+        <Route path="/:id" element={<CountryDetails />}/>
       </Routes>
-    </BrowserRouter>
-  </Provider>
+    </Provider>
+  </BrowserRouter>
 )
 
 export default App;
