@@ -13,7 +13,7 @@ const CountryDetails = () => {
   const covidData = useSelector((state) => state.dataCovid);
   useEffect(() => {
     dispatch(loadDataCountries());
-  }, []);
+  }, [dispatch]);
 
   const countryData = covidData.filter((data) => data.id === id);
 

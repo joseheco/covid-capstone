@@ -10,10 +10,9 @@ const Home = () => {
   const [searchText, setSearchText] = useState('');
   const dispatch = useDispatch();
   useEffect(() => {
-    if (myData.lenght === 0) {
     dispatch(loadDataCountries());
-  }
-  }, []);
+  }, [dispatch]);
+
   return(
     <div className="container">
       <div className="r-country display">
