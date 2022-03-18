@@ -36,6 +36,6 @@ export const loadDataCountries = () => async (dispatch) => {
     return currentData;
   });
   dispatch(getData(allData));
-}
+};
 
 export default dataCovid;

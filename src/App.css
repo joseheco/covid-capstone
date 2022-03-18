@@ -1,11 +1,11 @@
 html,
-.container{
-  background-color: #5687e4
+.container {
+  background-color: #5687e4;
 }
 
 * {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -42,6 +42,17 @@ div.countries {
   flex-wrap: wrap;
 }
 
+a.countries {
+  width: 45%;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 3rem 2rem 3rem 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
 a.countries:nth-child(4n+1) {
   background-color: #5687e4;
 }
@@ -52,17 +63,6 @@ a.countries:nth-child(4n+4) {
 
 h2.ea-country {
   font-size: 1rem;
-}
-
-a.countries {
-  width: 45%;
-  border: 1px solid white;
-  border-radius: 2px;
-  padding: 3rem 2rem 3rem 2rem;
-  cursor: pointer;
-  font-size: 1rem;
-  color: white;
-  text-decoration: none;
 }
 
 .r-country {
@@ -93,18 +93,18 @@ a.countries {
     font-weight: bold;
     margin-right: 14rem;
   }
-
 }
 
 @media screen and (max-width: 969px) {
   .info {
-    background-color: #5687E4;
+    background-color: #5687e4;
     font-size: 1.2rem;
     font-weight: bold;
     margin-left: 1rem;
   }
+
   p.info {
-    background-color: #5687E4;
+    background-color: #5687e4;
     margin-right: 4rem;
   }
 }
@@ -113,11 +113,11 @@ a.countries {
   align-items: center;
   justify-content: space-between;
   color: white;
-  background-color:#5687E4;
+  background-color: #5687e4;
 }
 
 p.info {
-  background-color: #5687E4;
+  background-color: #5687e4;
 }
 
 .country-info {
@@ -134,10 +134,11 @@ li {
 }
 
 li:nth-child(odd) {
-  background-color: #5687E4;
+  background-color: #5687e4;
 }
 
-.left, .right{
+.left,
+.right{
   font-size: 1.2rem;
   background-color: transparent;
 }

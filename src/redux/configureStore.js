@@ -4,7 +4,7 @@ import thunk from 'redux-thunk';
 import dataCovid from './covid/dataCovid';
 
 const rootReducer = combineReducers({
-  dataCovid, 
+  dataCovid,
 });
 
 const store = createStore(rootReducer, applyMiddleware(thunk, logger));
