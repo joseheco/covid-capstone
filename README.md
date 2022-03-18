@@ -1,56 +1,69 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Covid19
 
-> Description the project.
+> Covid 19 is a web that fetch covid data of all the countries of the world and render on your Web Browser.
+
+# Screenshots:
+
+Desktop : 
+
+<a href="https://ibb.co/PYVPbXg"><img src="https://i.ibb.co/GJr81YR/desktop-1.jpg" alt="desktop-1" border="0"></a>
+
+
+<a href="https://ibb.co/dcn9W6H"><img src="https://i.ibb.co/JdXLB2S/desktop-2.jpg" alt="desktop-2" border="0"></a>
+
+
+Mobile:
+
+<a href="https://ibb.co/Swhvn16"><img src="https://i.ibb.co/s903wDg/mobile-1.jpg" alt="mobile-1" border="0"></a>
+
+<a href="https://ibb.co/BC6rY1L"><img src="https://i.ibb.co/yQkYx30/mobile-2.jpg" alt="mobile-2" border="0"></a>
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
+- React
+- Redux
+- CSS
+- Webpack
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://covid19jose.herokuapp.com/)
+[Video](https://www.loom.com/share/3365db7b522740128da9b51192d0e5d4)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Get localy copy and git clone the project
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
+-Node
+-Visual Studio
 
 ### Usage
 
-### Run tests
+- git clone 
 
-### Deployment
+### Run ( development )
 
-
+- npm i
+-npm start
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@JoseHerrera](https://github.com/joseheco)
+- Twitter: [@JoseHerrera](https://twitter.com/jferheco)
+- LinkedIn: [JoseHerrera](https://linkedin.com/in/ljoseherreraco)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -61,12 +74,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
