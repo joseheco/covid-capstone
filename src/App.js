@@ -12,6 +12,7 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/:id" element={<CountryDetails />}/>
+        <Route path="*" element={<Home />}/>
       </Routes>
     </BrowserRouter>
   </Provider>
