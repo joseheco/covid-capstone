@@ -7,14 +7,14 @@ import Home from './components/Home'
 import CountryDetails from './components/CountryDetails'
 
 const App = () => (
-  <BrowserRouter>
-    <Provider store={store}>
+  <Provider store={store}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/:id" element={<CountryDetails />}/>
       </Routes>
-    </Provider>
-  </BrowserRouter>
-)
+    </BrowserRouter>
+  </Provider>
+);
 
 export default App;

@@ -1,11 +1,39 @@
+html,
+.container{
+  background-color: #5687e4
+}
+
 * {
   margin: 0;
   padding:0;
+  box-sizing: border-box;
 }
 
-.head {
+.display {
   display: flex;
-  justify-content: space-around;
+}
+
+.container {
+  background-color: #4369b2;
+}
+
+.country {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  margin: 1rem 8.5rem;
+  padding: 0.5rem;
+  background-color: white;
+  outline: none;
+  border-radius: 5px;
 }
 
 div.countries {
@@ -15,41 +43,101 @@ div.countries {
 }
 
 a.countries:nth-child(4n+1) {
-  background-color: #4369b2;
+  background-color: #5687e4;
 }
 
-a.countries:nth-child(4n) {
-  background-color: #4369b2;
+a.countries:nth-child(4n+4) {
+  background-color: #5687e4;
+}
+
+h2.ea-country {
+  font-size: 1rem;
 }
 
 a.countries {
-  width: 30%;
-  border: 1px solid black;
-  padding: 2rem;
+  width: 45%;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 3rem 2rem 3rem 2rem;
   cursor: pointer;
   font-size: 1rem;
-  color: black;
+  color: white;
+  text-decoration: none;
 }
 
-
-/* ea country */
-
 .r-country {
-  margin-top: 1rem;
-  margin-bottom: 8rem;
-  text-align: center;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+  color: white;
+  background-color: transparent;
+}
+
+.back-icon {
+  color: white;
+}
+
+.img-world {
+  width: 12rem;
+}
+
+@media screen and (min-width: 768px) {
+  .img-world {
+    justify-content: space-between;
+    width: 30rem;
+  }
+
+  .info {
+    background-color: #5687E4;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 14rem;
+  }
+
+}
+
+@media screen and (max-width: 969px) {
+  .info {
+    background-color: #5687E4;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+  }
+  p.info {
+    background-color: #5687E4;
+    margin-right: 4rem;
+  }
+}
+
+.info-covid {
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color:#5687E4;
+}
+
+p.info {
+  background-color: #5687E4;
+}
+
+.country-info {
+  align-items: center;
+  color: white;
+  font-weight: bold;
 }
 
 li {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
+  color: white;
 }
 
 li:nth-child(odd) {
-  background-color: #4369b2;
+  background-color: #5687E4;
 }
 
 .left, .right{
   font-size: 1.2rem;
+  background-color: transparent;
 }

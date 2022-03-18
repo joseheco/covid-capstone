@@ -12,7 +12,7 @@ export const getData = (payload) => ({
 const dataCovid = (state = initialState, action) => {
   switch (action.type) {
     case LOAD_DATA:
-      return [...action.payload];
+      return action.payload;
     default:
       return state;
   }
