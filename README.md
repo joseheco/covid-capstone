@@ -32,6 +32,7 @@ Mobile:
 ## Live Demo (if available)
 
 [Live Demo Link](https://covid19jose.herokuapp.com/)
+[Video](https://www.loom.com/share/3365db7b522740128da9b51192d0e5d4)
 
 
 ## Getting Started
