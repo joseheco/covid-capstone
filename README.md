@@ -31,7 +31,7 @@ Mobile:
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://covid19jose.herokuapp.com/)
 
 
 ## Getting Started
