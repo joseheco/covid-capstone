@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/covid-capstone/static/css/main.b6f9a7c3.css",
+    "main.js": "/covid-capstone/static/js/main.08a02562.js",
+    "index.html": "/covid-capstone/index.html",
+    "main.b6f9a7c3.css.map": "/covid-capstone/static/css/main.b6f9a7c3.css.map",
+    "main.08a02562.js.map": "/covid-capstone/static/js/main.08a02562.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6f9a7c3.css",
+    "static/js/main.08a02562.js"
+  ]
+}
